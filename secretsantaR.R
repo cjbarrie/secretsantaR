@@ -1,3 +1,6 @@
+library(gmailr)
+library(tidyverse)
+
 #define function to get random pairs where everyone gifts one and everyone receives one
 #without duplication
 
@@ -23,8 +26,6 @@ names <- data.frame(emails =c("email1", "email2",
 #check working:
 secretsantaR(names)
 
-
-library(gmailr)
 
 #set up API token for gmail account, following instructions here:
 #https://github.com/r-lib/gmailr
