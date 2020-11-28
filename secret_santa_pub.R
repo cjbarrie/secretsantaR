@@ -46,6 +46,6 @@ for (i in 1:nrow(sorted_names)) {
     gm_subject("Secret Book email") %>%
     gm_text_body(paste0("Hello and MERRY CHRISTMAS, ", giver, ". Santa is here, and he's here to tell you that you're buying a present for: ",
                        recipient, "! \n 
-               HO HO HO MERRY READING!"))
+               HO HO HO MERRY CHRISTMAS!"))
   gm_send_message(email_to_send)
 }
